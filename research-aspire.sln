@@ -10,6 +10,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "research-aspire.ApiService"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "research-aspire.Web", "research-aspire.Web\research-aspire.Web.csproj", "{3356C208-67EE-4F08-A8E6-5E5425D5F68B}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "research-aspire.DataAccess", "research-aspire.DataAccess\research-aspire.DataAccess.csproj", "{D3AD03CE-A2AB-43F9-991C-CE9734A02BA1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -32,6 +34,10 @@ Global
 		{3356C208-67EE-4F08-A8E6-5E5425D5F68B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3356C208-67EE-4F08-A8E6-5E5425D5F68B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3356C208-67EE-4F08-A8E6-5E5425D5F68B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D3AD03CE-A2AB-43F9-991C-CE9734A02BA1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D3AD03CE-A2AB-43F9-991C-CE9734A02BA1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D3AD03CE-A2AB-43F9-991C-CE9734A02BA1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D3AD03CE-A2AB-43F9-991C-CE9734A02BA1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

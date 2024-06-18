@@ -1,7 +1,14 @@
+using research_aspire.DataAccess;
 using research_aspire.Web;
 using research_aspire.Web.Components;
 
 var builder = WebApplication.CreateBuilder(args);
+
+// Add Redis caching with Aspire
+builder.AddRedisOutputCache("cache");
+
+// Add SQL Server database with Aspire
+builder.AddSqlServerDbContext<SushiDbContext>("sqlserver");
 
 // Add service defaults & Aspire components.
 builder.AddServiceDefaults();
